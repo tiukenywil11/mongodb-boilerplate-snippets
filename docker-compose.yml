@@ -17,4 +17,4 @@ services:
 # docker-compose up -d 
 # docker ps -a (to find container name)
 # docker exec -it <container_name> /bin/bash/ (to go into container, use powershell on Windows)
-# mongo (run inside the container)
+# mongosh -u root -p example (run inside the container)
