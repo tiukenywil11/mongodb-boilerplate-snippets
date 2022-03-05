@@ -1,10 +1,10 @@
-# MongoDB Insert commands
+# MongoDB InsertMany commands
 
-## Insert command syntax
+## InsertMany command syntax
 - Format for the following key pair values types can be seen below.
 - '...' represents being able to put more values.
 ```bash
-db.<collection>.insert([
+db.<collection>.insertMany([
 	{
 		<string_key>: '<string_value>',
 		<integer_key>: <integer_value>,
@@ -42,7 +42,7 @@ db.<collection>.insert([
 ])
 ```
 
-## Example working insert command
+## Example working insertMany command
 ```bash
 db.posts.insertMany([
 	{
