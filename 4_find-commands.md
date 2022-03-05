@@ -18,4 +18,7 @@ db.<collection>.find({
 ## Example working find command
 ```bash
 db.posts.find({ category: 'News' })
+
+#To make it more readable
+db.posts.find({ category: 'News' }).pretty()
 ```
