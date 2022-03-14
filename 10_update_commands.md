@@ -46,4 +46,16 @@ db.posts.update(
 		upsert: true
 	}
 )
+
+// Update only a single line of code
+db.posts.update(
+	{
+		title: 'Post Two'
+	},
+	{
+		$set: {
+			body: 'New post 2 body, single line',
+		}
+	}
+)
 ```
